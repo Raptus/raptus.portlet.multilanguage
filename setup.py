@@ -6,7 +6,7 @@ version = '1.0'
 setup(name='raptus.portlet.multilanguage',
       version=version,
       description="Provides a static text portlet for which one may select the language for which the portlet is available",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='raptus.portlet.multilanguage',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.portlet.multilanguage',
+      url='https://github.com/Raptus/raptus.portlet.multilanguage',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus', 'raptus.portlet'],
